@@ -1,0 +1,7 @@
+- name: "Install main 'atril' package"
+  ansible.builtin.package:
+    name: atril
+    state: present
+  become: true
+  become_user: root
+

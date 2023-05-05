@@ -1,0 +1,3 @@
+- name: "Install main atril application"
+  ansible.builtin.include_tasks: install/main.yml
+
