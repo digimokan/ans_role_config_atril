@@ -53,7 +53,7 @@ Install and configure the atril pdf viewer.
        - name: "Install and configure the atril pdf viewer"
          ansible.builtin.include_role:
            name: ans_role_config_atril
-           public: yes
+           public: true
    ```
 
 ## Role Options
